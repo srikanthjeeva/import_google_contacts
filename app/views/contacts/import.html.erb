@@ -1,0 +1,22 @@
+<h3 style="margin-left: 5%;">Successfully Imported Gmail Contacts. <br/> Your Gmail Contacts are listed below: </h3>
+<table class="table table-striped table-bordered" style="width: 50%; margin-left: 5%; margin-top: 3%">
+  <tr>
+    <th>
+      Name
+    </th>
+    <th>
+      Email
+    </th>
+  </tr>
+
+  <% @contacts.each do |contact| %>
+  <tr>
+    <td>
+      <%= contact[:name] %>
+    </td>
+    <td>
+      <%= contact[:email] %>
+    </td>
+  </tr>
+  <% end %>
+</table>

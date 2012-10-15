@@ -1,0 +1,423 @@
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/srikanth/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-15 22:35:23 +0530
+
+Mysql2::Error (Unknown database 'google_contacts_development'):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.4ms)
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-15 22:35:43 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/google" for 127.0.0.1 at 2012-10-15 22:47:30 +0530
+
+ActionController::RoutingError (No route matches "/contacts/google"):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/srikanth/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/contacts/google" for 127.0.0.1 at 2012-10-15 22:47:51 +0530
+
+ActionController::RoutingError (No route matches "/contacts/google"):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/contacts/google" for 127.0.0.1 at 2012-10-15 22:47:54 +0530
+
+ActionController::RoutingError (No route matches "/contacts/google"):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/contacts/gmail" for 127.0.0.1 at 2012-10-15 22:48:39 +0530
+
+
+Started GET "/contacts/gmail" for 127.0.0.1 at 2012-10-15 22:52:44 +0530
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /home/srikanth/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/contacts/gmail" for 127.0.0.1 at 2012-10-15 22:53:48 +0530
+
+
+Started GET "/contacts/import?code=4/vWdQW_oHopBzn5nG1tsGYAXlENUx.4lFRyGGW0g4UXE-sT2ZLcbQHNf7KdAI" for 127.0.0.1 at 2012-10-15 23:03:59 +0530
+
+AbstractController::ActionNotFound (The action 'show' could not be found for ContactsController):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (3.1ms)
+
+
+Started GET "/contacts/import?code=4/vWdQW_oHopBzn5nG1tsGYAXlENUx.4lFRyGGW0g4UXE-sT2ZLcbQHNf7KdAI" for 127.0.0.1 at 2012-10-15 23:04:30 +0530
+
+
+Started GET "/contacts/failure?error_message=internal_error" for 127.0.0.1 at 2012-10-15 23:04:31 +0530
+
+AbstractController::ActionNotFound (The action 'show' could not be found for ContactsController):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:04:37 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 17ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:09:41 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:10:30 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:11:01 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:12:10 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:12:25 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:12:49 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:13:23 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:13:53 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 18ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:14:06 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:18:07 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:18:51 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:19:31 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:19:33 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:19:46 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:20:19 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (30.7ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI" for 127.0.0.1 at 2012-10-15 23:20:31 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/lMZALpNfJS-6ipBabFp1o_KrVxrH.kte41fN3A5QQXE-sT2ZLcbRzWv_KdAI"}
+Rendered contacts/import.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:20:43 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:23:10 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 39ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/bootstrap.css" for 127.0.0.1 at 2012-10-15 23:23:11 +0530
+
+ActionController::RoutingError (No route matches "/assets/css/bootstrap.css"):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/css/bootstrap-responsive.css" for 127.0.0.1 at 2012-10-15 23:23:11 +0530
+
+ActionController::RoutingError (No route matches "/assets/css/bootstrap-responsive.css"):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/ico/favicon.ico" for 127.0.0.1 at 2012-10-15 23:23:11 +0530
+
+ActionController::RoutingError (No route matches "/assets/ico/favicon.ico"):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/ico/favicon.ico" for 127.0.0.1 at 2012-10-15 23:23:11 +0530
+
+ActionController::RoutingError (No route matches "/assets/ico/favicon.ico"):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:24:05 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/bootstrap.css" for 127.0.0.1 at 2012-10-15 23:24:05 +0530
+
+ActionController::RoutingError (No route matches "/assets/css/bootstrap.css"):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/css/bootstrap-responsive.css" for 127.0.0.1 at 2012-10-15 23:24:05 +0530
+
+ActionController::RoutingError (No route matches "/assets/css/bootstrap-responsive.css"):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:24:08 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/bootstrap.css" for 127.0.0.1 at 2012-10-15 23:24:08 +0530
+
+ActionController::RoutingError (No route matches "/assets/css/bootstrap.css"):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/css/bootstrap-responsive.css" for 127.0.0.1 at 2012-10-15 23:24:08 +0530
+
+ActionController::RoutingError (No route matches "/assets/css/bootstrap-responsive.css"):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:25:23 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:25:48 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:25:58 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:26:07 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:27:03 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:27:57 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:28:32 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:28:44 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:28:54 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:29:01 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:29:09 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:29:32 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-10-15 23:30:12 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/gmail" for 127.0.0.1 at 2012-10-15 23:30:14 +0530
+
+
+Started GET "/contacts/import?code=4/14EAf4e4e4yoqHT7sNhiQFdehKeL.giiRhCoHF_8WXE-sT2ZLcbR1kC7LdAI" for 127.0.0.1 at 2012-10-15 23:30:23 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/14EAf4e4e4yoqHT7sNhiQFdehKeL.giiRhCoHF_8WXE-sT2ZLcbR1kC7LdAI"}
+Rendered contacts/import.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/14EAf4e4e4yoqHT7sNhiQFdehKeL.giiRhCoHF_8WXE-sT2ZLcbR1kC7LdAI" for 127.0.0.1 at 2012-10-15 23:30:48 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/14EAf4e4e4yoqHT7sNhiQFdehKeL.giiRhCoHF_8WXE-sT2ZLcbR1kC7LdAI"}
+Rendered contacts/import.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/14EAf4e4e4yoqHT7sNhiQFdehKeL.giiRhCoHF_8WXE-sT2ZLcbR1kC7LdAI" for 127.0.0.1 at 2012-10-15 23:31:35 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/14EAf4e4e4yoqHT7sNhiQFdehKeL.giiRhCoHF_8WXE-sT2ZLcbR1kC7LdAI"}
+Rendered contacts/import.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/import?code=4/14EAf4e4e4yoqHT7sNhiQFdehKeL.giiRhCoHF_8WXE-sT2ZLcbR1kC7LdAI" for 127.0.0.1 at 2012-10-15 23:31:55 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/14EAf4e4e4yoqHT7sNhiQFdehKeL.giiRhCoHF_8WXE-sT2ZLcbR1kC7LdAI"}
+Rendered contacts/import.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/%5C" for 127.0.0.1 at 2012-10-15 23:32:06 +0530
+
+ActionController::RoutingError (No route matches "/%5C"):
+  
+
+Rendered /home/srikanth/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-15 23:32:08 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-15 23:32:51 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/gmail" for 127.0.0.1 at 2012-10-15 23:33:07 +0530
+
+
+Started GET "/contacts/import?code=4/ssXmH8HU69i5VsuCrCoMmolhWmdw.0mtK2ks8d_ceXE-sT2ZLcbSDvjTLdAI" for 127.0.0.1 at 2012-10-15 23:33:46 +0530
+  Processing by ContactsController#import as HTML
+  Parameters: {"code"=>"4/ssXmH8HU69i5VsuCrCoMmolhWmdw.0mtK2ks8d_ceXE-sT2ZLcbSDvjTLdAI"}
+Rendered contacts/import.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-15 23:35:18 +0530
+  Processing by ContactsController#index as HTML
+Rendered contacts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)

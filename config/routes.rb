@@ -1,7 +1,11 @@
 GoogleContacts::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
-
+  resources :contacts do
+    collection do
+      get 'import'
+    end
+  end
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
@@ -48,7 +52,7 @@ GoogleContacts::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  root :to => "contacts#index"
 
   # See how all your routes lay out with "rake routes"
 
